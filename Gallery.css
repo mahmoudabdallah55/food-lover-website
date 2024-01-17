@@ -1,0 +1,26 @@
+#gallary {
+    background-image: url(./img/offer-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+}
+.gallaryContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gallaryContent img {
+    width: 280px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 15px;
+    position: relative;
+    opacity:0.6;
+}
+.gallaryContent img:hover {
+    opacity: 1;
+}
+
+

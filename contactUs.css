@@ -1,0 +1,95 @@
+#contactUS {
+    padding: 100px 0;
+    text-transform: capitalize;
+}
+.contactContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactInfo {
+    
+}
+.contactInfo h1 {
+    margin: 15px 0 25px 0;
+
+}
+.contactInfo p {
+    margin-bottom: 10px;
+    color: #aeada3;
+}
+.contactInfo p i {
+    margin-right: 5px;
+    color: orange;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-content: center;
+}
+form input,form textarea {
+    text-transform: capitalize;
+    background-color: #e3e2dd;
+    border: none;
+
+
+}
+form input,form textarea:focus {
+    outline: none;
+}
+form input {
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+form textarea {
+    padding: 40px 20px;
+     
+}
+form button {
+    width: fit-content;
+    margin-top: 20px;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    text-transform: capitalize;
+    color: white;
+    border-radius: 10px;
+
+}
+
+form button:hover {
+    background-color: darkblue;
+}
+.socilaLinks i:not(.first) {
+    padding-left: 10px;
+    
+
+}
+.socilaLinks i {
+    font-size: 30px;
+
+}
+.socilaLinks i:hover {
+    color:orange
+}
+
+@media (max-width:900px)
+{
+    .contactContent {
+    flex-wrap: wrap;
+    }
+    .contactInfo {
+    width: 100%;
+    text-align: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: center;
+        margin-top: 20px;
+    }
+}

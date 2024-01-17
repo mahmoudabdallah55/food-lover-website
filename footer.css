@@ -1,0 +1,11 @@
+#footer {
+    background-color: #383848;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+#footer p a {
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+}

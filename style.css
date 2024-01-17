@@ -1,0 +1,47 @@
+/* css section files  */
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./Gallery.css);
+@import url(./historySection.css);
+@import url(./menu.css);
+@import url(./offers.css); 
+@import url(./contactUs.css);
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+ 
+/* public style  */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family:'Quicksand', sans-serif;
+    
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* container class */
+.container {
+    width: 75%;
+    margin:auto
+}
+
+/* general header text */
+.generalText {
+    padding: 46px 0;
+    text-align: center;
+
+}
+.generalText h1 {
+    margin-bottom: 19px;
+}
+

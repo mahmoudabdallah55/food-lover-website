@@ -1,0 +1,57 @@
+#offer {
+    background-image: url(./img/offer-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offerContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0;
+    color: white;
+    
+
+}
+.offerContent .offer1 {
+    width: 30%;
+}
+
+.offerContent .offer1 h2 {
+    margin: 20px 0;
+
+}
+.offerContent .offer1 img {
+    width: 200px;
+}
+.offerContent .offer1 p {
+    line-height: 1.5;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+.offerContent .offer1 .offerSalary {
+    margin-bottom: 20px;
+}
+.offerContent .offer1 .offerSalary span:first-child  {
+    text-decoration: line-through;
+
+}
+.offerContent .offer1 .offerSalary span:nth-child(2)  {
+    color: orange;
+
+}
+/* respnsive part */
+@media (max-width:1000px) {
+    .offerContent .offer1 {
+        width: 50%;
+    }
+
+}
+@media (max-width:650px) {
+    .offerContent .offer1 {
+        width: 100%;
+    }
+
+
+}
